@@ -1,0 +1,207 @@
+[
+  {
+    "index": 0,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-hero"
+    ],
+    "headings": [
+      "Premium teacuppuppies in Dubai"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-hero__teddy"
+        ],
+        "pose": "peek",
+        "act": "peekaboo",
+        "facing": "right",
+        "behind": "true",
+        "lane": "true"
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-meet"
+    ],
+    "headings": [
+      "Meet the pups"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-meet__teddy"
+        ],
+        "pose": "walk",
+        "act": "treadmill",
+        "facing": "right",
+        "behind": null,
+        "lane": null
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-paths"
+    ],
+    "headings": [
+      "Two ways to meet your puppy",
+      "Puppies in Dubai",
+      "Imported for you"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-fork__teddy"
+        ],
+        "pose": "sit",
+        "act": null,
+        "facing": "right",
+        "behind": null,
+        "lane": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-chat"
+    ],
+    "headings": [
+      "Your puppy journey",
+      "Choose your breed",
+      "Get photos & details",
+      "Secure & safe delivery"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-chat__teddy"
+        ],
+        "pose": "sit",
+        "act": null,
+        "facing": "right",
+        "behind": null,
+        "lane": null
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-passport"
+    ],
+    "headings": [
+      "Why families trust TeddyPups"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-book__teddy"
+        ],
+        "pose": "sit",
+        "act": null,
+        "facing": "right",
+        "behind": null,
+        "lane": null
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-dusk"
+    ],
+    "headings": [
+      "Happy families & puppies"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-dusk__teddy"
+        ],
+        "pose": "sit",
+        "act": null,
+        "facing": "right",
+        "behind": null,
+        "lane": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-night"
+    ],
+    "headings": [
+      "Questions, answered"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-night__teddy"
+        ],
+        "pose": "sit",
+        "act": "tilt",
+        "facing": "right",
+        "behind": null,
+        "lane": null
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "id": "",
+    "dataSection": "",
+    "classes": [
+      "tp-scene",
+      "tp-home"
+    ],
+    "headings": [
+      "Ready to meet your new best friend?"
+    ],
+    "stops": [
+      {
+        "class": [
+          "pup-stop",
+          "tp-house__teddy"
+        ],
+        "pose": "bow",
+        "act": null,
+        "facing": "right",
+        "behind": null,
+        "lane": null
+      }
+    ]
+  }
+]

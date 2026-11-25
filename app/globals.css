@@ -1,26 +1,48 @@
 @import "tailwindcss";
+@import "./original.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.site-main {
+  min-height: calc(100svh - var(--header-h));
+  padding-top: var(--header-h);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.pup-stop {
+  aspect-ratio: 300 / 240;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.tp-runner :is(.tp-runner__leg, .tp-runner__tail, .tp-runner__ear) {
+  transform-box: initial !important;
+}
+
+.tp-container {
+  width: 100%;
+  max-width: var(--content-max, 110rem);
+  margin-inline: auto;
+  padding-inline: var(--gutter, clamp(1rem, 4vw, 3.5rem));
+}
+
+.tp-mobile-bar {
+  position: fixed;
+  z-index: 40;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(5rem, 0.52fr);
+  gap: 0.75rem;
+  border-top: 2px solid var(--color-cocoa);
+  background: var(--color-milk);
+  padding: 0.625rem 0.75rem calc(0.625rem + env(safe-area-inset-bottom));
+}
+
+.tp-mobile-bar .btn {
+  min-height: 2.75rem;
+  padding-inline: 0.75rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .tp-mobile-bar {
+    display: none;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

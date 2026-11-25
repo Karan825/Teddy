@@ -1,12 +1,15 @@
 import type { NextConfig } from "next";
 
+const isGithubPages = process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  experimental: {
-    agentFeedback: true,
+  output: "export",
+  trailingSlash: true,
+  basePath: isGithubPages ? "/Teddy" : "",
+  assetPrefix: isGithubPages ? "/Teddy/" : undefined,
+  images: {
+    unoptimized: true,
   },
-  cacheComponents: true,
-  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
