@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   description: "Teddy bear and teacup puppies in Dubai. Meet local puppies in our Downtown Dubai showroom or bring home a rare breed imported from trusted breeders.",
   applicationName: "TeddyPups U.A.E.",
   metadataBase: new URL("https://puppy.instabizweb.com"),
+  icons: {
+    icon: "/brand/logo.png",
+    shortcut: "/brand/logo.png",
+    apple: "/brand/logo.png",
+  },
   openGraph: { title: "TeddyPups U.A.E. — Premium teacup puppies in Dubai", description: "Teddy bear and teacup puppies in Dubai. Meet local puppies in our Downtown Dubai showroom or bring home a rare breed imported from trusted breeders.", images: ["/brand/logo.png"] },
   twitter: { card: "summary_large_image" },
 };
